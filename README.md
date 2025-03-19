@@ -33,12 +33,12 @@ streamlit run app.py
 
 ## FastAPI Backend 🔗
 The backend for fetching jokes is built using FastAPI. You can find it here:
-[FastAPI Joke API Repository](https://github.com/your-username/fastapi-joke-api)
+[FastAPI Joke API Repository](https://github.com/ersa-rani/JOKE_API)
 
 ### Running the Backend Locally
 1. Navigate to the FastAPI repo:
 ```sh
-git clone https://github.com/ersa-rani/fastapi-joke-api.git
+git clone https://github.com/ersa-rani/JOKE_API.git
 cd fastapi-joke-api
 ```
 2. Install dependencies:
