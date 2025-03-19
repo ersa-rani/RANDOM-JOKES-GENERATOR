@@ -4,7 +4,7 @@ import requests
 def get_random_joke():
     """Fetch a random joke from the FastAPI backend."""
     try:
-        response = requests.get("http://127.0.0.1:8000/random_joke")
+        response = requests.get("https://joke-api-nine.vercel.app/random_joke")
         if response.status_code == 200:
             joke_data = response.json()
             return f"**{joke_data['setup']}**\n\n*{joke_data['punchline']}*"
